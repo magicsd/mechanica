@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Спешалти Кофейня в Красной Поляне | Mechanica Механика – лучшее кофе и закуски</title>
+  <meta name="description" content="Mechanica | Механика – уютная кофейня в Красной Поляне, предлагающая широкий выбор кофе, закусок и напитков. Приходите к нам по адресу: ул. Турчинского, 90.">
+  <meta name="keywords" content="Кофейня в Красной Поляне, Кофе в горах, Уютная кофейня, Завтраки в Красной Поляне, Кофейные напитки, Сытные закуски, Кофе с видом на горы, Ресторан кофе, Кофейный бар, Кофе на Турчинского">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway&display=swap" rel="stylesheet">
+
+  <style type="text/tailwindcss">
+    @layer base {
+      @font-face {
+        font-family: 'kc';
+        font-display: swap;
+        src: url(fonts/KCAcmeHandRegular.ttf) format('truetype');
+      }
+    }
+
+    @layer components {
+      .button {
+        @apply p-2 border-2 border-black rounded uppercase font-bold hover:bg-black hover:text-white;
+        @apply transition-colors focus-visible:ring-2 md:text-3xl md:p-4;
+      }
+    }
+  </style>
+
+
+</head>
+<body class="flex align-center bg-[#f3f2f0] font-mono bg-cover min-h-screen">
+  <main class="flex flex-col p-8 m-5 text-black border-4 border-black rounded-md md:text-center">
+    <h1 class="absolute -top-[999px] opacity-0">Mechanica Механика Спешалти Кофейня в Красной Поляне</h1>
+    <div class="mb-4">
+      <h2 class="text-6xl font-[kc] md:text-9xl">
+        Mechanica
+      </h2>
+      <h3 class="text-4xl font-[kc] md:text-6xl">
+        Coffee Ex Engineer
+      </h3>
+    </div>
+    <div class="flex flex-col md:gap-4">
+      <div class="uppercase font-bold text-lg font-[oswald] md:text-4xl">
+        Спешалти Кофейня в Красной Поляне
+      </div>
+      <div class="mt-2 text-[#8e8e8d] uppercase font-[oswald] md:text-3xl">
+        ул. Турчинского, 90
+      </div>
+      <div class="text-[#8e8e8d] uppercase font-[oswald] md:text-3xl">
+        +7 (928) 245-37-59
+      </div>
+      <div class="mt-6 text-x font-[raleway] text-[#767574] md:text-3xl">
+        Погрузитесь в атмосферу уюта и аромата свежесваренного кофе в самом сердце горного курорта.
+        Наша кофейня приглашает вас в волшебное путешествие в мир вкуса и удовольствия.
+      </div>
+      <div class="mt-8">
+        <img src="images/shop-live.jpg" alt="">
+      </div>
+      <div class="font-[oswald] mt-8 flex items-center gap-3 justify-between md:px-12">
+        <a class="button" href="tel:+79282453759">
+          Позвонить
+        </a>
+        <a href="https://yandex.com/maps/-/CDVEYH53" class="button">
+          Яндекс
+        </a>
+        <a href="https://maps.app.goo.gl/4Q4TyHpSkC93NcRu5" class="button">
+          Google
+        </a>
+        <a href="https://go.2gis.com/wefws" class="button">
+          2 Гис
+        </a>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
