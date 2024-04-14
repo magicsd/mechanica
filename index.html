@@ -27,7 +27,7 @@
     @layer components {
       .button {
         @apply p-2 border-2 border-black rounded uppercase font-bold hover:bg-black hover:text-white;
-        @apply transition-colors focus-visible:ring-2 md:text-3xl md:p-4;
+        @apply transition-colors focus-visible:ring-2 md:text-3xl md:p-4 truncate;
       }
     }
   </style>
@@ -35,7 +35,7 @@
 
 </head>
 <body class="flex align-center bg-[#f3f2f0] font-mono bg-cover min-h-screen">
-  <main class="flex flex-col p-8 m-5 text-black border-4 border-black rounded-md md:text-center">
+  <main class="flex flex-col p-6 m-5 text-black border-4 border-black rounded-md md:text-center">
     <h1 class="absolute -top-[999px] opacity-0">Mechanica Механика Спешалти Кофейня в Красной Поляне</h1>
     <div class="mb-4">
       <h2 class="text-6xl font-[kc] md:text-9xl">
@@ -62,7 +62,7 @@
       <div class="mt-8">
         <img src="images/shop-live.jpg" alt="">
       </div>
-      <div class="font-[oswald] mt-8 flex items-center gap-3 justify-between md:px-12">
+      <div class="font-[oswald] mt-8 flex flex-wrap items-center gap-2 justify-between md:px-12">
         <a class="button" href="tel:+79282453759">
           Позвонить
         </a>
